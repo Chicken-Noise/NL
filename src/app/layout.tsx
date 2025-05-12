@@ -17,6 +17,9 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Neolithic",
   description: "Revolutionizing semiconductor manufacturing",
+  icons: {
+    icon: '/favicon-32x32.png', // Points to public/favicon-32x32.png
+  },
 };
 
 export default function RootLayout({ children }: { children: React.ReactNode }) {
